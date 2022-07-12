@@ -10,6 +10,7 @@ class Alumno:
         
 Harryson = Alumno()
 
+print(Harryson.Nombre)
 Harryson.cambiarNombre('Harryson')
 print(Harryson.Nombre)
 
