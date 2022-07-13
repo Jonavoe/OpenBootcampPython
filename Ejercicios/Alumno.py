@@ -10,12 +10,10 @@ class Alumno:
         
 Harryson = Alumno()
 
-print(Harryson.Nombre)
 Harryson.cambiarNombre('Harryson')
 print(Harryson.Nombre)
 
 Harryson.cambiarNota(6)
-
 if Harryson.Nota >= 6:
     print('El alumno', Harryson.Nombre, 'Aprobo la materia con un', Harryson.Nota)
 else:
