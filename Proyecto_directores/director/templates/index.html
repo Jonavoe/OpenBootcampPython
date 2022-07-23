@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Registro de peliculas</h1>
+
+  <p>Bienvenidos a la <em>exposicion</em>, de los mejores directores de cine del Mundo.</p>
+
+<h2>Contenido Dinamico</h2>
+
+  <p>Aca podes ver sus peliculas y una pequeña</p>
+  <ul>
+    <li><strong>Movies:</strong> {{ movies }}</li>
+    <li><strong>Genres:</strong> {{ genres }}</li>
+    <li><strong>Authors:</strong> {{ authors }}</li>
+    <li><strong>Description:</strong> {{ description }}</li>
+  </ul>
+{% endblock %}
